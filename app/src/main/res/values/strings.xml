@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ADHA Oregon</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About ODHA</string>
+    <string name="news">News</string>
+    <string name="website">ODHA Website</string>
+    <string name="odha_mission">ODHA Mission Statement</string>
+    <string name="odha_mission_text">To improve the public\'s total health, the mission of the Oregon Dental Hygienists\' Association is to advance the art and science of dental hygiene by ensuring access to quality oral health care, increasing awareness of the cost-effective benefits of prevention, promoting the highest standards of dental hygiene education, licensure, practice and research, and representing and promoting the interests of dental hygienists.</string>
+    <string name="odha_goals">ODHA Goals</string>
+    <string name="odha_goals_text">The dental hygiene community will understand the value of ODHA membership and choose to belong.  ODHA will be the recognized community and resource for dental hygiene.  ODHA and its members will work in partnership with dentists and other stakeholders to advance oral health.  The dental hygiene profession will advance through effective advocacy by ODHA. ODHA will be a data-driven, fiscally sound, effectively governed organization.</string>
+</resources>
