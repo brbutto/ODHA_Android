@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".AboutActivity" />
         <activity android:name=".NewsActivity" />
-        <activity android:name=".ContactActivity"></activity>
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".AnnouncementDetailActivity"></activity>
     </application>
 
 </manifest>
