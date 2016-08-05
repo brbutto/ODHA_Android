@@ -17,17 +17,22 @@
         <item name="android:layout_margin">@dimen/button_margin</item>
     </style>
 
-    <style name="textHeaderOrange">
+    <style name="textTitle">
         <item name="android:textColor">@color/colorADHAorange</item>
         <item name="android:textSize">@dimen/header_text</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
         <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
     </style>
 
     <style name="textGeneric">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">@dimen/standard_text</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
     </style>
 
     <style name="newsTitle">

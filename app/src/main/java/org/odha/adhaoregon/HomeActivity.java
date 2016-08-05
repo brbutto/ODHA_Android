@@ -46,14 +46,6 @@ public class HomeActivity extends AppCompatActivity {
         websiteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*
-                Open ODHA website in browser using intents
-                */
-                /*
-                Uri uri = Uri.parse("http://www.odha.org");
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
-                */
 
                 String url = "http://www.odha.org";
                 CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
@@ -73,6 +65,18 @@ public class HomeActivity extends AppCompatActivity {
                 Intent newsIntent = new Intent(HomeActivity.this, NewsActivity.class);
 
                 startActivity(newsIntent);
+            }
+        });
+
+        TextView contactButton = (TextView) findViewById(R.id.contact_us_button);
+
+        assert contactButton != null;
+        contactButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent contactInent = new Intent(HomeActivity.this, ContactActivity.class);
+
+                startActivity(contactInent);
             }
         });
     }
