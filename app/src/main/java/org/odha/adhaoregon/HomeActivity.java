@@ -10,6 +10,7 @@ import android.support.customtabs.CustomTabsSession;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -24,7 +25,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         // Get About Us button instance
-        TextView aboutUsButton = (TextView) findViewById(R.id.about_odha_button);
+        Button aboutUsButton = (Button) findViewById(R.id.about_odha_button);
 
         // OnClick listener for About Us button
         assert aboutUsButton != null;
@@ -39,7 +40,7 @@ public class HomeActivity extends AppCompatActivity {
         });
 
         // Get Website button instance
-        TextView websiteButton = (TextView) findViewById(R.id.odha_website_button);
+        Button websiteButton = (Button) findViewById(R.id.odha_website_button);
 
         // OnClick listener for website button
         assert websiteButton != null;
@@ -55,7 +56,7 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        TextView newsButton = (TextView) findViewById(R.id.news_button);
+        Button newsButton = (Button) findViewById(R.id.news_button);
 
         assert newsButton != null;
         newsButton.setOnClickListener(new View.OnClickListener() {
@@ -68,7 +69,7 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        TextView contactButton = (TextView) findViewById(R.id.contact_us_button);
+        Button contactButton = (Button) findViewById(R.id.contact_us_button);
 
         assert contactButton != null;
         contactButton.setOnClickListener(new View.OnClickListener() {

@@ -27,12 +27,12 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <TextView android:id="@+id/odha_website_button"
+                <Button android:id="@+id/odha_website_button"
                     style="@style/app_buttons"
                     android:text="@string/website"
                     android:layout_weight="1" />
 
-                <TextView android:id="@+id/about_odha_button"
+                <Button android:id="@+id/about_odha_button"
                     style="@style/app_buttons"
                     android:text="@string/about_us_button"
                     android:layout_weight="1" />
@@ -44,12 +44,12 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal" >
 
-                <TextView android:id="@+id/news_button"
+                <Button android:id="@+id/news_button"
                     style="@style/app_buttons"
                     android:text="@string/news_button"
                     android:layout_weight="1" />
 
-                <TextView android:id="@+id/contact_us_button"
+                <Button android:id="@+id/contact_us_button"
                     style="@style/app_buttons"
                     android:text="@string/contact_us_button"
                     android:layout_weight="1" />
